@@ -9,6 +9,9 @@ include device/xiaomi/sm6125-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/ginkgo
 
+# A/B
+AB_OTA_UPDATER := false
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := ginkgo,willow
 
