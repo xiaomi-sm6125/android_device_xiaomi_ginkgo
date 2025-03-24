@@ -17,6 +17,14 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    fstab.qcom
+
+PRODUCT_PACKAGES += \
+    init.device.rc \
+    init.fingerprint.rc
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 28
 
