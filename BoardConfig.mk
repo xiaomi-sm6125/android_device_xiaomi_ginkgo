@@ -9,6 +9,9 @@ include device/xiaomi/sm6125-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/ginkgo
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := ginkgo,willow
+
 # Display
 TARGET_SCREEN_DENSITY := 440
 
