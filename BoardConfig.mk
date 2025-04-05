@@ -18,6 +18,12 @@ TARGET_OTA_ASSERT_DEVICE := ginkgo,willow
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# HIDL
+ODM_MANIFEST_SKUS += \
+    nfc
+
+ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/manifest_nfc.xml
+
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/ginkgo-perf_defconfig
 
